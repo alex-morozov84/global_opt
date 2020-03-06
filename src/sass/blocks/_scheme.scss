@@ -1,0 +1,21 @@
+.scheme {
+    min-height: 454px;
+    padding-top: 51px;
+    padding-bottom: 46px;
+    background-color: #f3f3f3;
+    &__item {
+        margin-top: 30px;
+    }
+    img {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+    &__descr {
+        font-size: 14px;
+        font-weight: 300;
+        color: #3a3a3a;
+        text-align: center;
+    }
+
+}

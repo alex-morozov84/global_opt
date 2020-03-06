@@ -1,0 +1,27 @@
+.variants {
+    min-height: 952px;
+    padding: 53px 0 58px;
+    &__subtitle {
+        position: relative;
+        font-family: Roboto;
+        font-size: 21px;
+        line-height: 24px;
+        font-weight: 300;
+        color: #2e2e2e;
+        text-align: center;
+        width: 692px;
+        display: block;
+        margin: 38px auto 34px;
+        &:before {
+            position: absolute;
+            content: "";
+            display: block;
+            width: 148px;
+            height: 1px;
+            background: $main-color;
+            top: -19px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+}

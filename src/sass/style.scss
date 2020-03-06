@@ -1,0 +1,28 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/bootstrap-grid.min';
+@import 'libs/bootstrap.min';
+@import 'libs/fonts';
+
+.container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+@import 'base/variables';
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/buttons';
+@import 'blocks/advantages';
+@import 'blocks/advantages-2';
+@import 'blocks/agent';
+@import 'blocks/variants';
+@import 'blocks/delivery';
+@import 'blocks/consultation';
+@import 'blocks/forms';
+@import 'blocks/managers';
+@import 'blocks/scheme';
+@import 'blocks/feedback';
+@import 'blocks/questions';
+@import 'blocks/map';
+@import 'blocks/footer';
+@import 'blocks/title';

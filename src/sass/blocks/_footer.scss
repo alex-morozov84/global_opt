@@ -1,0 +1,50 @@
+.footer {
+    min-height: 201px;
+    background-color: #25333c;
+    padding: 24px 0 28px;
+    img {
+        width: 68px;
+    }
+    &__title {
+        margin-top: 20px;
+        font-family: Roboto;
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 700;
+        color: #ffffff;
+    }
+    &__phone-block {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    &__phone-subtitle {
+        font-family: Roboto;
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 300;
+        color: #ffffff;
+    }
+    &__phone {
+        font-family: Roboto;
+        font-size: 19px;
+        line-height: 24px;
+        font-weight: 700;
+        color: #ffffff;
+        &:hover {
+            color: $main-color;
+        }
+    }
+    &__top {
+        position: relative;
+        &:after {
+            position: absolute;
+            content: "";
+            border-bottom: 1px solid #fff;
+            width: 100%;
+            height: 1px;
+            bottom: -25px;
+        }
+    }
+}

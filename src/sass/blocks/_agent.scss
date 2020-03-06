@@ -1,0 +1,39 @@
+.agent {
+    min-height: 342px;
+    padding: 58px 0 75px;
+    background: url('../img/back/mid_1.png') center (center / cover) no-repeat;
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+    }
+    &__round {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 102px;
+        height: 102px;
+        border: 1px solid #fff;
+        border-radius: 100%;
+    }
+    &__subtitle {
+        margin-top: 19px;
+        font-family: Roboto;
+        font-size: 26px;
+        line-height: 23px;
+        font-weight: 700;
+        color: #ffffff;
+        text-align: center;
+    }
+    &__descr {
+        display: block;
+        margin: 0 auto;
+        width: 984px;
+        margin-top: 22px;
+        font-family: Roboto;
+        font-size: 19px;
+        line-height: 27px;
+        font-weight: 300;
+        color: #ffffff;
+        text-align: center;
+    }
+}

@@ -1,0 +1,52 @@
+.feedback {
+    min-height: 470px;
+    padding-top: 50px;
+    padding-bottom: 65px;
+    &__subtitle {
+        position: relative;
+        width: 67%;
+        font-family: Roboto;
+        font-size: 21px;
+        line-height: 24px;
+        font-weight: 300;
+        color: #2e2e2e;
+        text-align: center;
+        display: block;
+        margin: 43px auto 31px;
+        &:before {
+            position: absolute;
+            content: "";
+            display: block;
+            width: 148px;
+            height: 1px;
+            background: $main-color;
+            top: -19px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+    &__item {
+        width: 600px;
+        height: 240px;
+    }
+    img {
+        display: block;
+        margin: 0 auto;
+    }
+    &__name {
+        margin-top: 20px;
+        margin-bottom: 15px;
+        font-family: Roboto;
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: 700;
+        color: #3a3a3a;
+        text-align: center;
+    }
+    &__descr {
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 300;
+        text-align: center;
+    }
+}

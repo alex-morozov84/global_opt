@@ -1,0 +1,25 @@
+.map {
+    position: relative;
+    &__window {
+        position: absolute;
+        width: 329px;
+        height: 158px;
+        background-color: #ffffff;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 27px 50px;
+    }
+    &__address {
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 300;
+        color: #3a3a3a;
+    }
+    &__email {
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 300;
+        color: $main-color;
+    }
+}

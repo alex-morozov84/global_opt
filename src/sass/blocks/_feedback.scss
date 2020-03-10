@@ -1,7 +1,7 @@
 .feedback {
     min-height: 470px;
     padding-top: 50px;
-    padding-bottom: 65px;
+    padding-bottom: 50px;
     &__subtitle {
         position: relative;
         width: 67%;
@@ -25,16 +25,12 @@
             transform: translateX(-50%);
         }
     }
-    &__item {
-        width: 600px;
-        height: 240px;
-    }
+    
     img {
         display: block;
         margin: 0 auto;
     }
     &__name {
-        margin-top: 20px;
         margin-bottom: 15px;
         font-family: Roboto;
         font-size: 18px;
@@ -47,6 +43,29 @@
         font-family: Roboto;
         font-size: 14px;
         font-weight: 300;
-        text-align: center;
+        color: #3a3a3a;
     }
+    &__carousel {
+        .carousel-control-next-icon {
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23ec644b' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3e%3c/svg%3e");
+        }
+        .carousel-control-prev-icon {
+            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ec644b' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+        }
+        .carousel-indicators {
+            margin-top: 15px;
+            position: relative;
+            li {
+                background-color: $main-color;
+            }
+        }
+    }
+}
+.carousel-caption {
+    position: relative;
+    display: block;
+    margin-left: 100px;
+    margin-top: 19px;
+    width: 601px;
+    height: 115px;
 }
